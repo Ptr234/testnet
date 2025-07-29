@@ -1,6 +1,7 @@
 {
-  "name": "my-website",
+  "name": "onestopcentre-uganda",
   "version": "1.0.0",
+  "description": "A modern, fully responsive React application for OneStopCentre Uganda, providing streamlined access to government business services, ATMS sector investments, and tax calculations.",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
@@ -10,11 +11,33 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "vite",
+    "tailwindcss",
+    "uganda",
+    "government-services",
+    "business-registration",
+    "tax-calculator",
+    "responsive-design",
+    "pwa"
+  ],
+  "author": "OneStopCentre Uganda <support@onestopcentre.ug>",
+  "contributors": [
+    {
+      "name": "OneStopCentre Uganda Team",
+      "email": "support@onestopcentre.ug"
+    }
+  ],
+  "license": "MIT",
   "devDependencies": {
+    "@eslint/js": "^9.32.0",
     "autoprefixer": "^10.4.21",
+    "eslint": "^9.32.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.0.0"
   },
@@ -49,5 +72,8 @@
     "url": "https://github.com/Ptr234/ONTESTER/issues"
   },
   "homepage": "https://github.com/Ptr234/ONTESTER#readme",
-  "description": ""
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
 }
