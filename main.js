@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Enhanced notification system
 function showProfessionalNotification(title, message, type = 'info', duration = 4000) {
     const notification = document.createElement('div');
